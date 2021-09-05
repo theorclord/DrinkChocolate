@@ -39,7 +39,7 @@ namespace DrinkChocolate
                 return "For evigt";
             }
             var time = DateTime.Now.Subtract(lastDrinkDate);
-            return time.ToString(@"hh\:mm\:ss");
+            return time.ToString(@"dd\.hh\:mm\:ss");
         }
 
         public void ClearList()
